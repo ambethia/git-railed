@@ -1,0 +1,7 @@
+= git-railed
+
+Usage: git-railed my_app_name
+
+Until I can figure out how (if it's even possible) to change the working
+directory of the parent process, you'll have to `cd my_app_name` yourself
+after running git-railed. Boo.

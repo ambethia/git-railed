@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+require 'rubygems'
+require 'rake'
+
+load File.dirname(__FILE__) + '/../lib/git-railed.rake'
+
+# get the app name.
+ENV['APP'] = ARGV[0]
+
+Rake::Task["git-railed"].invoke
