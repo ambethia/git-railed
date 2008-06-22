@@ -1,5 +1,8 @@
 = git-railed
 
++git-railed+ is a simple script that creates a new rails app, initializes a
+new git repository, moving the db config and setting up the ignores for you.
+
 == Usage
 
 As a gem:
