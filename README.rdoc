@@ -20,5 +20,5 @@ As a sake task:
 == Notes
 
 Until I can figure out how (if it's even possible) to change the working
-directory of the parent process, you'll have to `cd my_app_name` yourself
+directory of the parent process, you'll have to <tt>cd my_app_name</tt> yourself
 after running git-railed. Boo.
