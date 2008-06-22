@@ -4,5 +4,5 @@ Gem::Specification.new do |s|
   s.author = "Jason L Perry"
   s.date = "2008-6-21"
   s.summary = "Setup a new rails app, git repo, and all the initial prep in one step."
-  s.files = ["README", "bin/git-railed", "lib/git-railed.rake"]
+  s.files = ["README.rdoc", "bin/git-railed", "lib/git-railed.rake"]
 end
