@@ -1,6 +1,20 @@
 = git-railed
 
-Usage: git-railed my_app_name
+== Usage
+
+As a gem:
+
+  sudo gem install ambethia-git-railed -s http://gems.github.com
+
+  git-railed my_app_name
+
+As a sake task:
+
+  sake -i http://github.com/ambethia/git-railed/tree/master/lib/git-railed.rake?raw=true
+
+  sake git-railed APP=my_app_name
+
+== Notes
 
 Until I can figure out how (if it's even possible) to change the working
 directory of the parent process, you'll have to `cd my_app_name` yourself
