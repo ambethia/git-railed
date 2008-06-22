@@ -26,5 +26,5 @@ EOF
   system "find . -type d -empty -exec touch {}/.gitignore \\;"
   
   # Make the initial commit.
-  system "git add . && git commit -m \"Initial commit of \\\"#{app}\\\"\""  
+  system "git add . && git commit -m \"Initial commit of '#{app}'\""  
 end
